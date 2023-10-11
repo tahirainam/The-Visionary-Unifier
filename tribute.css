@@ -3,14 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #292826;
+    background-color: #101820;
 }
-
-
 
 .sidebar {
     display: flex;
@@ -25,56 +24,50 @@ body {
 }
 
 .sidebar ul {
-    
-   /* display: flex;
-    flex-direction: row;
-    float: flex-end;
-    justify-content: right;*/
     list-style-type: none;
     padding: 0;
 }
 
 .sidebar ul li {
-    
     margin: 10px 0;
 }
 
 .sidebar ul li a {
     text-decoration: none;
     font-size: 14px;
-    color: #f9d142;
+    color: #fee715;
     padding: 10px 20px;
 }
 
 .sidebar ul li a:hover {
     color: #aaa2a2;
 }
+
 .main-content {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     padding: 20px;
-}
+} 
+
 .section {
     margin-bottom: 15rem;
     margin-top: 3rem;
 }
+
 .page-heading {
     font-size: 50px;
     display: inline-block;
     text-align: left;
     width: 49%;
-    color: #f9d142;
+    color: #fee715;
 }
+
 .image-container {
     display: inline-block;
     text-align: right;
     width: 49%;
-}
-.image-container {
-    text-align: right;
-    margin-top: 20px;
 }
 
 .image-container img {
@@ -84,37 +77,30 @@ body {
     border-radius: 10px;
     box-shadow: 6px 13px 23px -5px #000000;
 }
-.bio-heading {
-    color: #f9d142;
-    text-align: center;
-    width: 80%;
-    
-    margin-left: auto;
-    margin-right: auto;
-}
-.bio-para {
-    margin-top: 10px;
-    color: #f9d142;
-}
-.cont-heading {
-    color: #f9d142;
+
+.bio-heading, .cont-heading {
+    color: #fee715;
     text-align: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
+.bio-para {
+    margin-top: 10px;
+    color: #fee715;
+}
 
 figcaption {
     font-size: 13px;
     font-style: italic;
-    color: #f9d142;
+    color: #fee715;
     margin-top: 10px;
 }
 
 footer {
     font-size: 16px;
-    color: #f9d142;
+    color: #fee715;
     text-align: center;
     padding: 10px;
     position: relative;
@@ -123,10 +109,14 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
 .social-icons a {
-    color: #f9d142;
+    color: #fee715;
     padding: 3.5px;
 }
+
 .social-icons a:hover {
     color: #aaa2a2;
 }
+
+
