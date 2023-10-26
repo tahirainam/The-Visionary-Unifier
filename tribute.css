@@ -6,25 +6,38 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Cinzel Decorative', serif;
     margin: 0;
     padding: 0;
-    background-color: #101820;
+    /*background-color: #101820;*/
+    background-color: #F2F0EB;
 }
-
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
+    background-color: #cfcec71f;
+    backdrop-filter: blur(8px);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    top: 0%;
+    left: 5%;
+    right: 5%;
+    text-align: center;
     position: fixed;
-    right: 0;
-    padding-right: 5%;
-    bottom: 22%;
-    background-color: transparent;
 }
 
 .sidebar ul {
+    height: 5vh;
+    margin-top: 3%;
+    /*height: 10vh;*/
+    display: flex;
+    flex-direction: row;
+    /*float: right;*/
     list-style-type: none;
     padding: 0;
 }
@@ -35,8 +48,8 @@ body {
 
 .sidebar ul li a {
     text-decoration: none;
-    font-size: 14px;
-    color: #fee715;
+    font-size: 12px;
+    color: #0A0D17;
     padding: 10px 20px;
 }
 
@@ -54,21 +67,45 @@ body {
 
 .section {
     margin-bottom: 15rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .page-heading {
+    /*border: 1px solid #aaa2a2;
+    border-top: none;
+    border-bottom: none;*/
     font-size: 50px;
-    display: inline-block;
-    text-align: left;
-    width: 49%;
-    color: #fee715;
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0A0D17;
+}
+/*hr {
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+.page-para {
+    /*background-color: #aaa2a2;*/
+    /*border: 1px solid #aaa2a2;
+    border-top: none;
+    border-bottom: none;*/
+    font-size: 15px;
+    text-align: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0A0D17;
 }
 
 .image-container {
-    display: inline-block;
     text-align: right;
-    width: 49%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
 }
 
 .image-container img {
@@ -80,7 +117,7 @@ body {
 }
 
 .bio-heading, .cont-heading {
-    color: #fee715;
+    color: #0A0D17;
     text-align: center;
     width: 80%;
     margin-left: auto;
@@ -89,35 +126,37 @@ body {
 
 .bio-para {
     margin-top: 10px;
-    color: #fee715;
+    color: #aaa2a2;
+    height: 100vh;
 }
 
 figcaption {
+    font-family: 'Newsreader', serif;
     font-size: 13px;
     font-style: italic;
-    color: #fee715;
+    color: #aaa2a2;
     margin-top: 10px;
 }
 
 footer {
+    font-family: 'Newsreader', serif;
     font-size: 16px;
-    color: #fee715;
+    color: #0A0D17;
     text-align: center;
     padding: 10px;
     position: relative;
     bottom: 4%;
     width: 80%;
+    height: 10vh;
     margin-left: auto;
     margin-right: auto;
 }
 
 .social-icons a {
-    color: #fee715;
+    color: #0A0D17;
     padding: 3.5px;
 }
 
 .social-icons a:hover {
     color: #aaa2a2;
 }
-
-
