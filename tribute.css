@@ -18,13 +18,13 @@ body {
     margin-right: auto;
 }
 .sidebar {
-    background-color: #cfcec71f;
+    background-color: #adada81f;
     backdrop-filter: blur(8px);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
-    top: 0%;
+    top: 2%;
     left: 5%;
     right: 5%;
     text-align: center;
@@ -61,7 +61,7 @@ body {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 5rem;
     padding: 20px;
 } 
 
@@ -118,16 +118,40 @@ body {
 
 .bio-heading, .cont-heading {
     color: #0A0D17;
-    text-align: center;
+    text-align: left;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
 }
+.sectio-2 {
+    width: 80%;
+    margin-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bio-container {
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 4rem;
+}
+.bio-img {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
 
+}
+.bio-img img {
+    margin-top: 17px;
+    max-width: 70%;
+    border: 1px solid #b3b0b09c;
+    border-radius: 10px;
+    box-shadow: 6px 13px 23px -5px #000000;
+}
 .bio-para {
-    margin-top: 10px;
     color: #aaa2a2;
-    height: 100vh;
+    margin: 20px;
 }
 
 figcaption {
@@ -137,7 +161,26 @@ figcaption {
     color: #aaa2a2;
     margin-top: 10px;
 }
-
+.fab-icon {
+    position: fixed;
+    
+    width:20%;
+    height: 10%;
+    right: 0%;
+    bottom: 10%;
+}
+.wiki a {
+    background-color: #d8d0d0;
+    backdrop-filter: blur(8px);
+    width: 50% ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 24px;
+    box-shadow: 6px 13px 23px -5px #000000;
+}
 footer {
     font-family: 'Newsreader', serif;
     font-size: 16px;
@@ -147,11 +190,14 @@ footer {
     position: relative;
     bottom: 4%;
     width: 80%;
-    height: 10vh;
+    height: 13vh;
     margin-left: auto;
     margin-right: auto;
 }
-
+.footer-text {
+    color: #0A0D17;
+    margin: 10px;
+}
 .social-icons a {
     color: #0A0D17;
     padding: 3.5px;
