@@ -18,11 +18,14 @@
     <div class="container">
         <div class="sidebar">
             <ul>
-                <li><a href="#home">Home</a></li>
                 <li><a href="#biography">Biography</a></li>
                 <li><a href="#contributions">Contributions</a></li>
             </ul>
-            <!--<div class="sidebar"><li><a href="#">contact</a></li></div>-->
+            <div class="home">
+                <ul>
+                   <li><a href="#home">Home</a></li>
+                </ul>
+            </div>
             
         </div>
 
@@ -39,26 +42,37 @@
                 </div>
             </section>
             <section id="biography" class="section-2">
+                <h2 class="bio-heading" >BIOGRAPHY</h2>
                 <div class="bio-container">
-                    <h2 class="bio-heading">BIOGRAPHY</h2>
+                    <p class="bio-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <p class="bio-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <p class="bio-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda commodi officia sunt amet rem iusto nesciunt odio eaque ut!</p>
                 </div>
                 <div class="bio-img">
-                    <img src="abd-bio.jpg" alt="Dr. Abdul Salaam">
-                    <figcaption>Dr. Abdul Salaam</figcaption>
+                    <img src="hbd.jpg" alt="Dr. Abdul Salaam's birth certificate">
+                    <figcaption>Dr. Abdul Salaam's birth certificate</figcaption>
                 </div>
             </section>
-            <section id="contributions" class="section">
+            <section id="contributions" class="section-2">
                 <h2 class="cont-heading">Contributions</h2>
                 <div class="cont-container">
+                    <div class="bio-container">
+                    <p class="bio-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <p class="bio-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <p class="bio-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda commodi officia sunt amet rem iusto nesciunt odio eaque ut!</p>
+                </div>
+                <div class="bio-img">
+                    <img src="hbd.jpg" alt="Dr. Abdul Salaam's birth certificate">
+                    <figcaption>Dr. Abdul Salaam's birth certificate</figcaption>
+                </div>
                 </div>
             </section>
         </div>
     </div>
-    <div class="fab-icon">
+    <div class="fab-icon" onmouseover="showMessage()">
         <div class="wiki">
-            <a href="https://github.com/Inahira" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-wikipedia-w"></i></a>
+            <a href="https://en.wikipedia.org/wiki/Abdus_Salam" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-wikipedia-w"></i></a>
+            <div class="text" id="message">Read on wikipedia</div>
         </div>
     </div>
     <footer>
