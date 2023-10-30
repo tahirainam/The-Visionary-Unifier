@@ -10,8 +10,8 @@ body {
     margin: 0;
     padding: 0;
     /*background-color: #101820;*/
-    /*background-color: #F2F0EB;*/
-    background-color: #d8d0d0;
+    background-color: #F2F0EB;
+    /*background-color: #d8d0d0;*/
 }
 .container {
     width: 90%;
@@ -33,7 +33,7 @@ body {
 }
 
 .sidebar ul {
-    height: 5vh;
+    /*height: 5vh;*/
     margin-top: 3%;
     /*height: 10vh;*/
     display: flex;
@@ -43,7 +43,7 @@ body {
     padding: 0;
 }
 .home {
-    height: 5vh;
+    /*height: 5vh;*/
     margin-top: 3%;
     /*height: 10vh;*/
     display: flex;
@@ -78,6 +78,7 @@ body {
 
 .section {
     margin-top: 2rem;
+    height: 100vh;
 }
 
 .page-heading {
@@ -137,7 +138,7 @@ body {
 .sectio-2 {
     width: 80%;
     height: 100vh;
-    margin-top: 20px;
+    margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -160,11 +161,22 @@ body {
     border-radius: 10px;
     box-shadow: 6px 13px 23px -5px #000000;
 }
-.bio-para {
+.bio-para, .x-para {
+    font-family: 'Newsreader', serif;
+    font-size: 16px;
     color: #aaa2a2;
     margin: 20px;
 }
-
+.xinfo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
 figcaption {
     font-family: 'Newsreader', serif;
     font-size: 13px;
