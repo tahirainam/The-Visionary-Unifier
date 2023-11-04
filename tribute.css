@@ -14,12 +14,7 @@ body {
     /*background-color: #d8d0d0;*/
     background: linear-gradient(to right, #F2F0EB, #f2f0eb9f);
 }
-.container {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.sidebar {
+.navbar {
     background-color: #adada81f;
     backdrop-filter: blur(8px);
     width: 80%;
@@ -33,7 +28,7 @@ body {
     position: fixed;
 }
 
-.sidebar ul {
+.navbar ul {
     /*height: 5vh;*/
     margin-top: 3%;
     /*height: 10vh;*/
@@ -55,35 +50,38 @@ body {
     padding: 0;
 }
 
-.sidebar ul li {
+.navbar ul li {
     margin: 10px 0;
 }
 
-.sidebar ul li a {
+.navbar ul li a {
     text-decoration: none;
     font-size: 12px;
     color: #0A0D17;
     padding: 10px 20px;
 }
 
-.sidebar ul li a:hover {
+.navbar ul li a:hover {
     color: #aaa2a2;
 }
 
 .main-content {
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5rem;
     padding: 20px;
 } 
 
-.section {
+.header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2rem;
     height: 100vh;
 }
 .home-content {
-   padding-top: 15%;
+   padding-top: 12%;
    width: 80%;
    margin-left: auto;
    margin-right: auto;
@@ -169,7 +167,7 @@ body {
     border-radius: 10px;
     box-shadow: 6px 13px 23px -5px #000000;
 }
-.bio-para, .x-para {
+.section-para {
     font-family: 'Newsreader', serif;
     font-size: 16px;
     color: #aaa2a2;
@@ -236,7 +234,7 @@ figcaption {
     visibility: visible;
     opacity: 1;
   }
-footer {
+.footer {
     font-family: 'Newsreader', serif;
     font-size: 16px;
     color: #0A0D17;
