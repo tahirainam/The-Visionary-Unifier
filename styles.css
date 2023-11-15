@@ -14,6 +14,10 @@ body {
     /*background-color: #d8d0d0;*/
     background: linear-gradient(to right, #F2F0EB, #f2f0eb9f);
 }
+.keyword {
+    font-weight: bold;
+    color: #706c6c; /* Change to the color you prefer */
+}
 .navbar {
     background-color: #adada81f;
     backdrop-filter: blur(8px);
@@ -90,10 +94,10 @@ body {
     /*border: 1px solid #aaa2a2;
     border-top: none;
     border-bottom: none;*/
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     text-align: center;
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     color: #0A0D17;
@@ -113,7 +117,7 @@ body {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
-    color: #0A0D17;
+    color: #706c6c;
 }
 
 .image-container {
@@ -131,11 +135,13 @@ body {
     border-radius: 10px;
     box-shadow: 6px 13px 23px -5px #000000;
 }
-
-.bio-heading, .cont-heading,h3 {
+h2 {
+    text-align: center;
+}
+.bio-heading {
     color: #0A0D17;
     text-align: left;
-    width: 80%;
+    width: 90%;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -148,7 +154,7 @@ body {
     margin-right: auto;
 }
 .bio-container {
-    margin-top: 12rem;
+    margin-top: 8rem;
     height: 50vh;
     width: 49%;
     display: inline-block;
@@ -169,8 +175,8 @@ body {
 }
 .section-para {
     font-family: 'Newsreader', serif;
-    font-size: 16px;
-    color: #aaa2a2;
+    font-size: 1.25vw;
+    color: #7e7878;
     margin: 20px;
 }
 .xinfo, .achv-container {
@@ -182,9 +188,6 @@ body {
     display: inline-block;
     text-align: center;
 }
-h3 {
-    text-align: center;
-}
 figcaption {
     font-family: 'Newsreader', serif;
     font-size: 13px;
@@ -194,13 +197,14 @@ figcaption {
 }
 .fab-icon {
     position: fixed;
-    
     width:20%;
     height: 10%;
     right: 0%;
     bottom: 10%;
 }
 .wiki a {
+    box-sizing: border-box;
+    border: 1px solid #d1cbcb;
     /*background-color: #d8d0d0;*/
     background-color: #F2F0EB;
     backdrop-filter: blur(8px);
@@ -248,10 +252,11 @@ figcaption {
     margin-right: auto;
 }
 .footer-text {
-    color: #0A0D17;
+    color: #7e7878;
     margin: 10px;
 }
 .social-icons a {
+    font-size: 18px;
     color: #0A0D17;
     padding: 3.5px;
 }

@@ -1,0 +1,101 @@
+/* for  responsive-ness */
+@media only screen and (max-width: 768px) {
+    .main-content {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .navbar, .bio-img{
+       display: none;
+    }
+    .page-heading, .page-para {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .page-heading {
+        font-size: 27px;
+    }
+    .image-container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0%;
+    }
+    .section-2 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bio-container {
+        margin-top: 2rem;
+        font-size: 20px;
+        display: contents;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    .bio-heading, .section-heading {
+        font-size: 22px;
+        text-align: left;
+        margin: 0;
+    }
+    .section-para, .xinfo, .achv-container {
+        font-size: 17px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    .xinfo, .achv-container, .bio-container {
+        margin-top: 4rem;
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .main-content {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .page-heading {
+        font-size: 26px;
+    }
+     .page-heading, .page-para {
+         width: 80%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .bio-heading {
+        margin-top: 10px;
+     }
+     .bio-container {
+        margin-top: 6rem;
+     }
+     .section-para {
+        font-size: 14px;
+     }
+      .xinfo, .achv-container {
+         width: 100%;
+         margin-left: auto;
+         margin-right: auto;
+        height: 40vh;
+     }
+}
+@media only screen and (min-width: 992px) and (max-width: 1126px) {
+    .page-heading {
+        font-size: 29px;
+    }
+    .section-para {
+        font-size: 15px;
+     }
+    .xinfo, .achv-container {
+        margin-left: 4rem;
+       height: inherit;
+    }
+}
+
